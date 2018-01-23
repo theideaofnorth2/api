@@ -1,0 +1,20 @@
+Icon
+.DS_Store
+dist/*
+
+# Don't track composer phar/vendors
+composer.phar
+composer.lock
+/vendor
+
+# Ignore log files
+*.log
+
+# Ignore dev files
+.idea
+.sass-cache
+.gulp-scss-cache
+node_modules
+
+# Ignore configuration
+config.php
