@@ -1,8 +1,6 @@
 <?php
 
-  require 'vendor/autoload.php';
-
-  require('./config.php');
-  require('./api.php');
+  header('Access-Control-Allow-Origin: *');
+  readfile("data.json");
 
 ?>
